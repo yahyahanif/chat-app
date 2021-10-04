@@ -19,7 +19,7 @@ router.use(function(req, res, next) {
     } catch (err) {
         console.log(err);
         res.setHeader('Content-Type', 'application/json');
-        res.end(JSON.stringify({ message: 'Unauthorized error' }));
+        res.end(JSON.stringify({ message: 'Unauthorized Error Found' }));
         res.sendStatus(401);
     }
 });
