@@ -52,6 +52,3 @@ app.use(function (req, res, next) {
   next();
 });
 
-// Routes
-app.use("/api/users", users);
-app.use("/api/messages", messages);
