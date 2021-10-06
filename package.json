@@ -1,7 +1,7 @@
 {
     "name": "chat-app",
     "version": "1.0.0",
-    "description": "MERN Stack Based Chat Application",
+    "description": "MERN Stack Based Cat Application",
     "main": "server.js",
     "scripts": {
         "client-install": "npm install --prefix client",
