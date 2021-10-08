@@ -7,7 +7,7 @@ const GlobalMessageSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'users',
     },
-    body: {
+    body: 
         type: String,
         required: true,
     },
