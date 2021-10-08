@@ -1,9 +1,7 @@
 {
     "name": "chat-app",
     "version": "1.0.0",
-    "description": "MERN Stack Based Chat Application",
-    "main": "server.js"
-    "scripts": {
+
         "client-install": "npm install --prefix client",
         "start": "node server.js",
         "server": "nodemon server.js",
